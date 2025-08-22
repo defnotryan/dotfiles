@@ -7,3 +7,7 @@ end
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
 fzf --fish | source
+
+alias ls='eza --icons --group-directories-first --color=always'
+alias ll='eza -l --icons --group-directories-first --color=always'
+alias la='eza -la --icons --group-directories-first --color=always'

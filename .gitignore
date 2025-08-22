@@ -1,2 +1,4 @@
 .DS_Store
-.config/fish/fish_variables
+fish/dot-config/fish/fish_variables
+iterm2/dot-config/iterm2/AppSupport
+
