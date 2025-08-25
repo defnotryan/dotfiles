@@ -11,3 +11,5 @@ fzf --fish | source
 alias ls='eza --icons --group-directories-first --color=always'
 alias ll='eza -l --icons --group-directories-first --color=always'
 alias la='eza -la --icons --group-directories-first --color=always'
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
