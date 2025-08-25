@@ -33,3 +33,6 @@ set -g fish_pager_color_progress $comment
 set -g fish_pager_color_prefix $cyan
 set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
+
+# Tide color
+set -U tide_os_color $foreground
